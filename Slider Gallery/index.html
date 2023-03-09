@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider Album</title>
+    <!--Css link-->
+    <link rel="stylesheet" href="style.css"/>
+    <!--Jquery link-->
+    <link rel="stylesheet" href="jquery.flipster.min.css"/>
+</head>
+<body>
+    <!--main section-->
+    <div class="hero">
+        <div class="carousel">
+            <ul>
+                <!--Images for gallery-->
+                <li><img src="Images/1.jpg" alt="image"/></li>
+                <li><img src="Images/2.jpg" width="200px" height="300px" alt="image"/></li>
+                <li><img src="Images/3.jpg" alt="image"/></li>
+                <li><img src="Images/4.jpg" alt="image"/></li>
+                <li><img src="Images/5.jpg" alt="image"/></li>
+                <li><img src="Images/6.jpg" alt="image"/></li>
+                <li><img src="Images/11.jpg" alt="image"/></li>
+                <li><img src="Images/7.jpg" width="200px" height="310px" alt="image"/></li>
+                <li><img src="Images/8.jpg"width="200px" height="310px"  alt="image"/></li>
+                <li><img src="Images/9.jpg"width="200px" height="310px"  alt="image"/></li>
+                <li><img src="Images/10.jpg" alt="image"/></li>
+                <li><img src="Images/12.jpg" alt="image"/></li>
+                <li><img src="Images/13.jpg" alt="image"/></li>
+            </ul>
+        </div>
+
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script src="jquery.flipster.min.js"></script>
+    <script>
+        $('.carousel').flipster({
+            style:'carousel',
+            spacing:-0.16,
+        });
+    </script>
+</body>
+</html>
